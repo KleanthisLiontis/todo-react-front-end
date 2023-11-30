@@ -38,7 +38,7 @@ app.whenReady().then(() => {
     });
 });
 
-
+//This is for macOS
 app.on("window-all-closed", function () {
     if (process.platform !== "darwin") app.quit();
 });
